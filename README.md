@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Vulcan Anticheat Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Vulcan Anticheat Analysis is a React-based web application designed to visualize and analyze anticheat data from Minecraft servers using the Vulcan Anticheat plugin. This tool provides insights into player behavior, violation patterns, and overall server security.
 
-## Available Scripts
+## Web App
 
-In the project directory, you can run:
+Click [Here](https://vulcan-anticheat-analysis.vercel.app/ "Here") To View This Dashboard Online!
 
-### `npm start`
+![screencapture-vulcan-anticheat-analysis-vercel-app-2024-07-28-14_47_11 (1)](https://github.com/user-attachments/assets/6a2f8676-fd25-4461-a62f-907db6af06a3)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   File upload for `punishments.txt` and `violations.txt`
+-   Interactive data visualization for punishments and violations
+-   Detailed analysis of anticheat data
+-   Player search functionality
+-   Date range selection for filtered analysis
+-   Responsive design for various screen sizes
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users can interact with the Vulcan Anticheat Analysis dashboard in the following ways:
 
-### `npm run build`
+### Data Upload and Analysis
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   **Upload Files**: Upload punishments.txt and violations.txt files from your Vulcan Anticheat logs.
+-   **View Analytics**: See detailed visualizations of punishment and violation data.
+-   **Search Players**: Use the player search feature to find specific player's anticheat history.
+-   **Date Range Selection**: Filter data based on specific date ranges.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Data Visualization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   **Punishment Analysis**: View total punishments, punishments by type, and top punished players.
+-   **Violation Analysis**: Examine total violations, violations by type, and top violating players.
+-   **Trend Analysis**: Analyze violation trends over time.
 
-### `npm run eject`
+## Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   Node.js 14.0 or higher
+-   npm 6.0 or higher
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```
+   git clone https://github.com/Kaludii/vulcan-anticheat-analysis.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
+   ```
+   cd vulcan-anticheat-analysis
+   ```
 
-## Learn More
+3. Install the required packages:
+   ```
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Run the app in development mode:
+   ```
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. To create a production build:
+   ```
+   npm run build
