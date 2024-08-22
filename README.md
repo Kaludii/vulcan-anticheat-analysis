@@ -6,7 +6,7 @@ The Vulcan Anticheat Analysis is a React-based web application designed to visua
 
 Click [Here](https://vulcan-anticheat-analysis.vercel.app/ "Here") To View This Dashboard Online!
 
-![screencapture-vulcan-anticheat-analysis-vercel-app-2024-07-28-14_47_11 (1)](https://github.com/user-attachments/assets/6a2f8676-fd25-4461-a62f-907db6af06a3)
+<img src="https://github.com/user-attachments/assets/6a2f8676-fd25-4461-a62f-907db6af06a3" width="50%" alt="screencapture-vulcan-anticheat-analysis">
 
 ## Features
 
